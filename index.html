@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet" />
     <title>PlayPoint ICL</title>
+    <link rel="icon" type="image/png" href="imgs/ICL_logo 2.png">
     <link rel="stylesheet" href="src/output.css" />
 </head>
 <body class="m-0 p-0 overflow-x-hidden font-manrope">
@@ -29,30 +30,31 @@
                 <a href="https://forms.fillout.com/t/oRaCkhtpMNus?fbclid=IwZXh0bgNhZW0CMTEAAR0jP5PLht0p6f92nZ_QUUxb_1GNA5NS7NKY5eOA5a37URUfMcFvsTb66Fc_aem_f6tDqQEXUufVDaMVoUFn7w"><span class="button-content">Register</span></a>
               </button>
 
-             <button class="md:hidden max-md:py-[0.35rem] max-md:px-[1.5rem] border rounded-xl text-white hover:bg-purple-400 hover:text-white transition-all">
+             <button class="md:hidden max-md:py-[0.5rem] max-md:px-[1.75rem] border rounded-full text-white hover:bg-purple-400 hover:text-white transition-all">
               <a href="https://forms.fillout.com/t/oRaCkhtpMNus?fbclid=IwZXh0bgNhZW0CMTEAAR0jP5PLht0p6f92nZ_QUUxb_1GNA5NS7NKY5eOA5a37URUfMcFvsTb66Fc_aem_f6tDqQEXUufVDaMVoUFn7w">Register</a>
              </button> 
         </nav>
 
-        <div class="relative z-1 p-5 gap-4 text-white text-center font-manrope flex flex-col justify-center">
-          <div class="flex justify-center items-center gap-2">
-            <div class="bg-green-500 rounded-full w-[2vw] h-[1rem] glow live-dot text-small max-md:w-[12px] max-md:h-[12px]"></div>
+        <div class="relative z-1 p-5 max-md:p-2 gap-4 text-white text-center font-manrope flex flex-col justify-center">
+          <div class="flex justify-center items-center gap-2 max-md:gap-[1px]">
+            <div class="bg-green-500 mx-[2px] rounded-full w-[2vw] h-[1rem] glow live-dot text-small max-md:w-[12px] max-md:h-[12px]"></div>
             <div class="countdown">
-              <p class="text-p max-md:text-[10px]">Season Live in </p> 
-              <div class="text-p max-md:text-[10px]"><span id="days">0</span> days</div>
-                  <div class="text-p max-md:text-[10px]"><span id="hours">0</span> hours</div>
-                  <div class="text-p max-md:text-[10px]"><span id="minutes">0</span> minutes</div>
-                  <div class="text-p max-md:text-[10px]">and</div>
-                  <div class="text-p max-md:text-[10px]"><span id="seconds">0</span> seconds</div>
+              <p class="text-p max-md:text-[12px]">Season Live in </p> 
+              <div class="text-p max-md:text-[12px]"><span id="days">0</span> days</div>
+                  <div class="text-p max-md:text-[12px]"><span id="hours">0</span> hours</div>
+                  <div class="text-p max-md:text-[12px]"><span id="minutes">0</span> minutes</div>
+                  <div class="text-p max-md:text-[12px]">and</div>
+                  <div class="text-p max-md:text-[12px]"><span id="seconds">0</span> seconds</div>
               </div>
           </div>
-          <div>
+          <div class="px-4">
             <h1 class="text-h3 max-md:text-h3 font-bold">PlayPoint Indoor Cricket League</h1>
             <p class="text-p max-md:text-h5">Enter the arena. Feel the adrenaline. Experience intense, high-speed cricket action.</p>
           </div>
       </div>
         
-      <video class="my-[2vw] mb-[2vw] max-md:mb-[5rem] relative z-1 object-cover max-md:object-contain w-[50%] max-md:w-[65%] rounded-lg" src="imgs/S3 Highlights (1) (1).mp4" autoplay controls loop muted playsinline></video>
+      <video class="md:hidden my-[2vw] mb-[2vw] relative z-1 object-cover w-[30%] max-md:w-[65%] rounded-lg" src="imgs/heroVid.mp4" autoplay controls loop muted playsinline></video>
+      <video class="max-md:hidden my-[2vw] mb-[2vw] max-md:mb-[5rem] relative z-1 object-cover w-[30%] rounded-lg" src="imgs/heroVid.mp4" autoplay controls loop muted playsinline></video>
 
       <div class="max-md:mb-[2.5rem]"></div>
 
@@ -71,14 +73,14 @@
         <div class="flex flex-col items-start gap-[2vw] w-[55vw] p-[5vw]">
             <h2 class="text-h4 leading-[5vw] font-semibold font-manrope text-left">Make your way to the crease, limited spots left!</h2>
 
-            <a href="">
-              <div class="md:hidden rounded-full border border-black p-2 text-[8px] px-6 hover:bg-purple-400 hover:text-white transition-all">
+            <a href="#pricing">
+              <div class="md:hidden rounded-full border border-black p-2 text-[8px] px-8 hover:bg-purple-400 hover:text-white transition-all font-semibold">
                 Pad Up >
               </div>
             </a>
             
             <div class="btn-conteiner flex justify-start items-start max-md:hidden">
-                <a class="btn-content" href="#">
+                <a class="btn-content" href="#pricing">
                   <span class="btn-title font-manrope text-p">Pad Up</span>
                   <span class="icon-arrow">
                     <svg width="48px" height="48px" viewBox="0 0 66 43" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -113,7 +115,7 @@
                     <div class="mb-8 inline-block w-full ring-offset-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-border-primary focus-visible:ring-offset-2">
                         <div class="relative inline-block w-full pt-[100%]">
                             <img
-                                src="imgs/img2.JPG"
+                                src="imgs/gal-photo-3-min.JPG"
                                 alt="Placeholder image 1"
                                 class="absolute inset-0 size-full object-cover rounded-lg"
                             />
@@ -122,7 +124,7 @@
                     <div class="mb-8 inline-block w-full ring-offset-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-border-primary focus-visible:ring-offset-2">
                         <div class="relative inline-block w-full pt-[66.66%]">
                             <img
-                                src="imgs/img1.JPG"
+                                src="imgs/gal-photo-2-min.JPG"
                                 alt="Placeholder image 2"
                                 class="absolute inset-0 size-full object-cover rounded-lg"
                             />
@@ -131,7 +133,7 @@
                     <div class="mb-8 inline-block w-full ring-offset-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-border-primary focus-visible:ring-offset-2">
                         <div class="relative inline-block w-full pt-[66.66%]">
                             <img
-                                src="imgs/img5.JPG"
+                                src="imgs/gal-photo-4-min.JPG"
                                 alt="Placeholder image 3"
                                 class="absolute inset-0 size-full object-cover rounded-lg"
                             />
@@ -140,7 +142,7 @@
                     <div class="mb-8 inline-block w-full ring-offset-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-border-primary focus-visible:ring-offset-2">
                         <div class="relative inline-block w-full pt-[100%]">
                             <img
-                                src="imgs/img3 1.png"
+                                src="imgs/gal-photo-1-min.png"
                                 alt="Placeholder image 4"
                                 class="absolute inset-0 size-full object-cover rounded-lg"
                             />
@@ -173,7 +175,7 @@
                 </button>
               </div>
               <div data-state="active" data-orientation="horizontal" role="tabpanel" aria-labelledby="radix-:R2:-trigger-monthly" id="radix-:R2:-content-monthly" tabindex="0" class="focus-visible:outline-none grid grid-cols-1 gap-8 md:grid-cols-2" style="opacity: 1; animation-duration: 0s">
-                <div id="junior" class="flex h-full flex-col justify-between border border-border-primary px-6 py-8 md:p-8 rounded-lg bg-white max-md:">
+                <div id="junior1" class="flex h-full flex-col justify-between border border-border-primary px-6 py-8 md:p-8 rounded-lg bg-white">
                   <div>
                     <div class="flex items-start justify-between">
                       <div>
@@ -184,36 +186,20 @@
                       </div>
                       <div class="text-right">
                         <h1 class="text-6xl font-bold md:text-9xl lg:text-10xl">
-                          $19<span class="text-2xl font-bold md:text-3xl lg:text-4xl"></span>
+                          $15<span class="text-2xl font-bold md:text-3xl lg:text-4xl"></span>
                         </h1>
                       </div>
                     </div>
                     <div class="my-8 h-px w-full shrink-0 bg-border"></div>
                     <p>Includes:</p>
                     <div class="mb-8 mt-4 grid grid-cols-1 gap-x-6 gap-y-4 py-2 lg:grid-cols-2">
-                      <div class="flex self-start max-md:hidden">
+                      <div class="flex self-start">
                         <div class="mr-4 flex-none self-start">
                           <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="size-6" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
                             <path d="m10 15.586-3.293-3.293-1.414 1.414L10 18.414l9.707-9.707-1.414-1.414z"></path>
                           </svg>
                         </div>
-                        <p>Feature text goes here</p>
-                      </div>
-                      <div class="flex self-start max-md:hidden">
-                        <div class="mr-4 flex-none self-start">
-                          <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="size-6" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
-                            <path d="m10 15.586-3.293-3.293-1.414 1.414L10 18.414l9.707-9.707-1.414-1.414z"></path>
-                          </svg>
-                        </div>
-                        <p>Feature text goes here</p>
-                      </div>
-                      <div class="flex self-start max-md:hidden">
-                        <div class="mr-4 flex-none self-start">
-                          <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="size-6" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
-                            <path d="m10 15.586-3.293-3.293-1.414 1.414L10 18.414l9.707-9.707-1.414-1.414z"></path>
-                          </svg>
-                        </div>
-                        <p>Feature text goes here</p>
+                        <p>1 hour sessions</p>
                       </div>
                       <div class="flex self-start">
                         <div class="mr-4 flex-none self-start">
@@ -221,28 +207,30 @@
                             <path d="m10 15.586-3.293-3.293-1.414 1.414L10 18.414l9.707-9.707-1.414-1.414z"></path>
                           </svg>
                         </div>
-                        <p>Feature text goes here</p>
+                        <p>Drills & Matches</p>
                       </div>
                       <div class="flex self-start">
                         <div class="mr-4 flex-none self-start">
-                          <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="size-6" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
-                            <path d="m10 15.586-3.293-3.293-1.414 1.414L10 18.414l9.707-9.707-1.414-1.414z"></path>
-                          </svg>
+                          <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1.5em" width="1.5em" xmlns="http://www.w3.org/2000/svg">
+                            <line x1="6" y1="6" x2="18" y2="18" stroke="currentColor" stroke-width="2"/>
+                            <line x1="6" y1="18" x2="18" y2="6" stroke="currentColor" stroke-width="2"/>
+                          </svg>                                                    
                         </div>
-                        <p>Feature text goes here</p>
+                        <p>Guaranteed spot for next week</p>
                       </div>
                       <div class="flex self-start">
                         <div class="mr-4 flex-none self-start">
-                          <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="size-6" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
-                            <path d="m10 15.586-3.293-3.293-1.414 1.414L10 18.414l9.707-9.707-1.414-1.414z"></path>
-                          </svg>
+                          <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1.5em" width="1.5em" xmlns="http://www.w3.org/2000/svg">
+                            <line x1="6" y1="6" x2="18" y2="18" stroke="currentColor" stroke-width="2"/>
+                            <line x1="6" y1="18" x2="18" y2="6" stroke="currentColor" stroke-width="2"/>
+                          </svg>                                                    
                         </div>
-                        <p>Feature text goes here</p>
+                        <p>Discount for 4-week program</p>
                       </div>
                     </div>
                   </div>
                   <div class="flex justify-center">
-                    <a style="--clr: #00A3E0" class="btn flex justify-center" href="#">
+                    <a style="--clr: #00A3E0" class="btn flex justify-center" href="https://forms.fillout.com/t/oRaCkhtpMNus?fbclid=IwZXh0bgNhZW0CMTEAAR0jP5PLht0p6f92nZ_QUUxb_1GNA5NS7NKY5eOA5a37URUfMcFvsTb66Fc_aem_f6tDqQEXUufVDaMVoUFn7w">
                       <span class="btn__icon-wrapper">
                         <svg width="10" class="btn__icon-svg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 15">
                           <path fill="currentColor" d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"></path>
@@ -256,91 +244,7 @@
                   </div>
                 </div>
 
-                <div id="junior" class="flex h-full flex-col justify-between border border-border-primary px-6 py-8 md:p-8 rounded-lg bg-white">
-                  <div>
-                    <div class="flex items-start justify-between">
-                      <div>
-                        <div class="mb-4 flex flex-col items-start justify-end">
-                        </div>
-                        <h5 class="mb-2 text-xl font-bold md:text-2xl">Season plan</h5>
-                        <p>Pay Per Season.</p>
-                      </div>
-                      <div class="text-right">
-                        <h1 class="text-6xl font-bold md:text-9xl lg:text-10xl">
-                          $69<span class="text-2xl font-bold md:text-3xl lg:text-4xl"></span>
-                        </h1>
-                      </div>
-                    </div>
-                    <div class="my-8 h-px w-full shrink-0 bg-border"></div>
-                    <p>Includes:</p>
-                    <div class="mb-8 mt-4 grid grid-cols-1 gap-x-6 gap-y-4 py-2 lg:grid-cols-2">
-                      <div class="flex self-start max-md:hidden">
-                        <div class="mr-4 flex-none self-start">
-                          <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="size-6" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
-                            <path d="m10 15.586-3.293-3.293-1.414 1.414L10 18.414l9.707-9.707-1.414-1.414z"></path>
-                          </svg>
-                        </div>
-                        <p>Feature text goes here</p>
-                      </div>
-                      <div class="flex self-start max-md:hidden">
-                        <div class="mr-4 flex-none self-start">
-                          <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="size-6" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
-                            <path d="m10 15.586-3.293-3.293-1.414 1.414L10 18.414l9.707-9.707-1.414-1.414z"></path>
-                          </svg>
-                        </div>
-                        <p>Feature text goes here</p>
-                      </div>
-                      <div class="flex self-start max-md:hidden">
-                        <div class="mr-4 flex-none self-start">
-                          <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="size-6" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
-                            <path d="m10 15.586-3.293-3.293-1.414 1.414L10 18.414l9.707-9.707-1.414-1.414z"></path>
-                          </svg>
-                        </div>
-                        <p>Feature text goes here</p>
-                      </div>
-                      <div class="flex self-start">
-                        <div class="mr-4 flex-none self-start">
-                          <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="size-6" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
-                            <path d="m10 15.586-3.293-3.293-1.414 1.414L10 18.414l9.707-9.707-1.414-1.414z"></path>
-                          </svg>
-                        </div>
-                        <p>Feature text goes here</p>
-                      </div>
-                      <div class="flex self-start">
-                        <div class="mr-4 flex-none self-start">
-                          <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="size-6" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
-                            <path d="m10 15.586-3.293-3.293-1.414 1.414L10 18.414l9.707-9.707-1.414-1.414z"></path>
-                          </svg>
-                        </div>
-                        <p>Feature text goes here</p>
-                      </div>
-                      <div class="flex self-start">
-                        <div class="mr-4 flex-none self-start">
-                          <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="size-6" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
-                            <path d="m10 15.586-3.293-3.293-1.414 1.414L10 18.414l9.707-9.707-1.414-1.414z"></path>
-                          </svg>
-                        </div>
-                        <p>Feature text goes here</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="flex justify-center">
-                    <a style="--clr: #00A3E0" class="btn flex justify-center" href="#">
-                      <span class="btn__icon-wrapper">
-                        <svg width="10" class="btn__icon-svg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 15">
-                          <path fill="currentColor" d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"></path>
-                        </svg>
-                        <svg class="btn__icon-svg btn__icon-svg--copy" xmlns="http://www.w3.org/2000/svg" width="10" fill="none" viewBox="0 0 14 15">
-                          <path fill="currentColor" d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"></path>
-                        </svg>
-                      </span>
-                      Select Plan
-                    </a>
-                  </div>
-                </div>
-
-
-                <div id="senior" class="flex h-full flex-col justify-between border border-border-primary px-6 py-8 md:p-8 rounded-lg bg-white hidden">
+                <div id="senior1" class="hidden flex h-full flex-col justify-between border border-border-primary px-6 py-8 md:p-8 rounded-lg bg-white">
                   <div>
                     <div class="flex items-start justify-between">
                       <div>
@@ -351,7 +255,7 @@
                       </div>
                       <div class="text-right">
                         <h1 class="text-6xl font-bold md:text-9xl lg:text-10xl">
-                          $21<span class="text-2xl font-bold md:text-3xl lg:text-4xl"></span>
+                          $20<span class="text-2xl font-bold md:text-3xl lg:text-4xl"></span>
                         </h1>
                       </div>
                     </div>
@@ -364,7 +268,7 @@
                             <path d="m10 15.586-3.293-3.293-1.414 1.414L10 18.414l9.707-9.707-1.414-1.414z"></path>
                           </svg>
                         </div>
-                        <p>Feature text goes here</p>
+                        <p>1 hour sessions</p>
                       </div>
                       <div class="flex self-start max-md:hidden">
                         <div class="mr-4 flex-none self-start">
@@ -372,15 +276,77 @@
                             <path d="m10 15.586-3.293-3.293-1.414 1.414L10 18.414l9.707-9.707-1.414-1.414z"></path>
                           </svg>
                         </div>
-                        <p>Feature text goes here</p>
+                        <p>Grade selection</p>
                       </div>
+                      <div class="flex self-start">
+                        <div class="mr-4 flex-none self-start">
+                          <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1.5em" width="1.5em" xmlns="http://www.w3.org/2000/svg">
+                            <line x1="6" y1="6" x2="18" y2="18" stroke="currentColor" stroke-width="2"/>
+                            <line x1="6" y1="18" x2="18" y2="6" stroke="currentColor" stroke-width="2"/>
+                          </svg>                                                    
+                        </div>
+                        <p>Guaranteed spot for next week</p>
+                      </div>
+                      <div class="flex self-start">
+                        <div class="mr-4 flex-none self-start">
+                          <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1.5em" width="1.5em" xmlns="http://www.w3.org/2000/svg">
+                            <line x1="6" y1="6" x2="18" y2="18" stroke="currentColor" stroke-width="2"/>
+                            <line x1="6" y1="18" x2="18" y2="6" stroke="currentColor" stroke-width="2"/>
+                          </svg>                                                    
+                        </div>
+                        <p>Discount for 4-week program</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flex justify-center">
+                    <a style="--clr: #00A3E0" class="btn flex justify-center" href="https://forms.fillout.com/t/oRaCkhtpMNus?fbclid=IwZXh0bgNhZW0CMTEAAR0jP5PLht0p6f92nZ_QUUxb_1GNA5NS7NKY5eOA5a37URUfMcFvsTb66Fc_aem_f6tDqQEXUufVDaMVoUFn7w">
+                      <span class="btn__icon-wrapper">
+                        <svg width="10" class="btn__icon-svg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 15">
+                          <path fill="currentColor" d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"></path>
+                        </svg>
+                        <svg class="btn__icon-svg btn__icon-svg--copy" xmlns="http://www.w3.org/2000/svg" width="10" fill="none" viewBox="0 0 14 15">
+                          <path fill="currentColor" d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"></path>
+                        </svg>
+                      </span>
+                      Select Plan
+                    </a>
+                  </div>
+                </div>
+
+                <div id="junior2" class="flex h-full flex-col justify-between border border-border-primary px-6 py-8 md:p-8 rounded-lg bg-white">
+                  <div>
+                    <div class="flex items-start justify-between">
+                      <div>
+                        <div class="mb-4 flex flex-col items-start justify-end">
+                        </div>
+                        <h5 class="mb-2 text-xl font-bold md:text-2xl">Season plan</h5>
+                        <p>Pay Per Season.</p>
+                      </div>
+                      <div class="text-right">
+                        <h1 class="text-6xl font-bold md:text-9xl lg:text-10xl">
+                          <span class="line-through text-gray-500">$60</span>
+                          $50<span class="text-2xl font-bold md:text-3xl lg:text-4xl"></span>
+                        </h1>
+                      </div>
+                    </div>
+                    <div class="my-8 h-px w-full shrink-0 bg-border"></div>
+                    <p>Includes:</p>
+                    <div class="mb-8 mt-4 grid grid-cols-1 gap-x-6 gap-y-4 py-2 lg:grid-cols-2">
                       <div class="flex self-start max-md:hidden">
                         <div class="mr-4 flex-none self-start">
                           <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="size-6" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
                             <path d="m10 15.586-3.293-3.293-1.414 1.414L10 18.414l9.707-9.707-1.414-1.414z"></path>
                           </svg>
                         </div>
-                        <p>Feature text goes here</p>
+                        <p>Everything in basic plan</p>
+                      </div>
+                      <div class="flex self-start ">
+                        <div class="mr-4 flex-none self-start">
+                          <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="size-6" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                            <path d="m10 15.586-3.293-3.293-1.414 1.414L10 18.414l9.707-9.707-1.414-1.414z"></path>
+                          </svg>
+                        </div>
+                        <p>Guaranteed spot for 4 weeks</p>
                       </div>
                       <div class="flex self-start">
                         <div class="mr-4 flex-none self-start">
@@ -388,23 +354,7 @@
                             <path d="m10 15.586-3.293-3.293-1.414 1.414L10 18.414l9.707-9.707-1.414-1.414z"></path>
                           </svg>
                         </div>
-                        <p>Feature text goes here</p>
-                      </div>
-                      <div class="flex self-start">
-                        <div class="mr-4 flex-none self-start">
-                          <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="size-6" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
-                            <path d="m10 15.586-3.293-3.293-1.414 1.414L10 18.414l9.707-9.707-1.414-1.414z"></path>
-                          </svg>
-                        </div>
-                        <p>Feature text goes here</p>
-                      </div>
-                      <div class="flex self-start">
-                        <div class="mr-4 flex-none self-start">
-                          <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="size-6" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
-                            <path d="m10 15.586-3.293-3.293-1.414 1.414L10 18.414l9.707-9.707-1.414-1.414z"></path>
-                          </svg>
-                        </div>
-                        <p>Feature text goes here</p>
+                        <p>Discounted price</p>
                       </div>
                     </div>
                   </div>
@@ -423,7 +373,7 @@
                   </div>
                 </div>
 
-                <div id="senior" class="flex h-full flex-col justify-between border border-border-primary px-6 py-8 md:p-8 rounded-lg bg-white hidden">
+                <div id="senior2" class="hidden flex h-full flex-col justify-between border border-border-primary px-6 py-8 md:p-8 rounded-lg bg-white">
                   <div>
                     <div class="flex items-start justify-between">
                       <div>
@@ -434,7 +384,8 @@
                       </div>
                       <div class="text-right">
                         <h1 class="text-6xl font-bold md:text-9xl lg:text-10xl">
-                          $71<span class="text-2xl font-bold md:text-3xl lg:text-4xl"></span>
+                          <span class="line-through text-gray-500">$80</span>
+                          $70<span class="text-2xl font-bold md:text-3xl lg:text-4xl"></span>
                         </h1>
                       </div>
                     </div>
@@ -447,23 +398,15 @@
                             <path d="m10 15.586-3.293-3.293-1.414 1.414L10 18.414l9.707-9.707-1.414-1.414z"></path>
                           </svg>
                         </div>
-                        <p>Feature text goes here</p>
+                        <p>Everything in basic plan</p>
                       </div>
-                      <div class="flex self-start max-md:hidden">
+                      <div class="flex self-start ">
                         <div class="mr-4 flex-none self-start">
                           <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="size-6" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
                             <path d="m10 15.586-3.293-3.293-1.414 1.414L10 18.414l9.707-9.707-1.414-1.414z"></path>
                           </svg>
                         </div>
-                        <p>Feature text goes here</p>
-                      </div>
-                      <div class="flex self-start max-md:hidden">
-                        <div class="mr-4 flex-none self-start">
-                          <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="size-6" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
-                            <path d="m10 15.586-3.293-3.293-1.414 1.414L10 18.414l9.707-9.707-1.414-1.414z"></path>
-                          </svg>
-                        </div>
-                        <p>Feature text goes here</p>
+                        <p>Guaranteed spot for 4 weeks</p>
                       </div>
                       <div class="flex self-start">
                         <div class="mr-4 flex-none self-start">
@@ -471,23 +414,7 @@
                             <path d="m10 15.586-3.293-3.293-1.414 1.414L10 18.414l9.707-9.707-1.414-1.414z"></path>
                           </svg>
                         </div>
-                        <p>Feature text goes here</p>
-                      </div>
-                      <div class="flex self-start">
-                        <div class="mr-4 flex-none self-start">
-                          <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="size-6" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
-                            <path d="m10 15.586-3.293-3.293-1.414 1.414L10 18.414l9.707-9.707-1.414-1.414z"></path>
-                          </svg>
-                        </div>
-                        <p>Feature text goes here</p>
-                      </div>
-                      <div class="flex self-start">
-                        <div class="mr-4 flex-none self-start">
-                          <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="size-6" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
-                            <path d="m10 15.586-3.293-3.293-1.414 1.414L10 18.414l9.707-9.707-1.414-1.414z"></path>
-                          </svg>
-                        </div>
-                        <p>Feature text goes here</p>
+                        <p>Discounted price</p>
                       </div>
                     </div>
                   </div>
@@ -505,7 +432,8 @@
                     </a>
                   </div>
                 </div>
-                
+
+
               </div>
             </div>
           </div>
@@ -516,55 +444,56 @@
 
     <section id="faq" class="faq py-[5vw] mx-[15vw] max-md:mx-[7.5vw] max-md:pt-[3rem] max-md:pb-0">
 
-      <h2 class="text-right text-h4 max-md:text-h1 font-semibold">
+      <h2 class="text-right text-h4 max-md:text-h1 font-semibold max-md:text-center">
         Still got questions?
       </h2>
-      <p class="text-right max-md:text-h5 text-p">There may be bad sledges, but no bad questions, hopefully these answer all yours.</p>
+      <p class="text-right max-md:text-h5 text-p max-md:text-center">There may be bad sledges, but no bad questions<span class="max-md:hidden">, hopefully these answer all yours.</span></p>
 
-      <div class="my-[5vw]">
+      <div class="my-[7.5vw]">
         <div class="question-1  border-2 border-black w-full px-[2.5vw] py-[0.5vw] flex justify-between items-center mt-[1vw] max-md:border-[1px] max-md:py-[0.5rem] ">
-          <h4 class="text-[1.25vw] max-md:text-h6">Question text goes here?</h4>
+          <h4 class="text-[1.25vw] max-md:text-h6">Where are the games hosted?</h4>
           <h4 onclick="showAnswer()" class="text-[3vw] max-md:text-[5vw] cursor-pointer">&plus;</h4>
         </div>
         <div class="answer-1 text-color2 hidden">
           <div class="max-md:border-[1px] max-md:border-t-0 border-l-2 border-b-2 border-r-2 border-black p-10 max-md:p-2">
-            <p class="text-[1.25vw] max-md:text-h6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta eum suscipit quia quam impedit ullam, libero sapiente illo, et quo facere fugiat quae debitis labore facilis placeat eligendi, ut iure obcaecati. Officia aliquam necessitatibus nobis explicabo ullam recusandae tempore pariatur iusto, mollitia, expedita exercitationem earum minima voluptates ab aut sit.</p>
+            <p class="text-[1.25vw] max-md:text-h6">All games will be hosted at Playpoint Blacktown!</p>
           </div>
         </div>
         <div class="question-1  border-2 border-black w-full px-[2.5vw] py-[0.5vw] flex justify-between items-center mt-[1vw] max-md:border-[1px] max-md:py-[0.5rem] ">
-          <h4 class="text-[1.25vw] max-md:text-h6">Question text goes here?</h4>
+          <h4 class="text-[1.25vw] max-md:text-h6">How many games per week?</h4>
           <h4 onclick="showAnswer2()" class="text-[3vw] max-md:text-[5vw] cursor-pointer">&plus;</h4>
         </div>
         <div class="answer-2 text-color2 hidden">
           <div class="max-md:border-[1px] max-md:border-t-0 border-l-2 border-b-2 border-r-2 border-black p-10 max-md:p-2">
-            <p class="text-[1.25vw] max-md:text-h6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta eum suscipit quia quam impedit ullam, libero sapiente illo, et quo facere fugiat quae debitis labore facilis placeat eligendi, ut iure obcaecati. Officia aliquam necessitatibus nobis explicabo ullam recusandae tempore pariatur iusto, mollitia, expedita exercitationem earum minima voluptates ab aut sit.</p>
+            <p class="text-[1.25vw] max-md:text-h6">Every week, you get to play two games which equate to an hours worth of play.</p>
           </div>
         </div>
         <div class="question-1  border-2 border-black w-full px-[2.5vw] py-[0.5vw] flex justify-between items-center mt-[1vw] max-md:border-[1px] max-md:py-[0.5rem] ">
-          <h4 class="text-[1.25vw] max-md:text-h6">Question text goes here?</h4>
+          <h4 class="text-[1.25vw] max-md:text-h6">What grade suits me?</h4>
           <h4 onclick="showAnswer3()" class="text-[3vw] max-md:text-[5vw] cursor-pointer">&plus;</h4>
         </div>
         <div class="answer-3 text-color2 hidden">
           <div class="max-md:border-[1px] max-md:border-t-0 border-l-2 border-b-2 border-r-2 border-black p-10 max-md:p-2">
-            <p class="text-[1.25vw] max-md:text-h6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta eum suscipit quia quam impedit ullam, libero sapiente illo, et quo facere fugiat quae debitis labore facilis placeat eligendi, ut iure obcaecati. Officia aliquam necessitatibus nobis explicabo ullam recusandae tempore pariatur iusto, mollitia, expedita exercitationem earum minima voluptates ab aut sit.</p>
+            <p class="text-[1.25vw] max-md:text-h6">First grade is for those who are looking for the highest level of competition ICL has to offer. Second Grade is for those returning to the sport and want a mix of competition and fun. Third Grade is for purely for fun and encourages team collaboration and player bonding.  
+            </p>
           </div>
         </div>
         <div class="question-1  border-2 border-black w-full px-[2.5vw] py-[0.5vw] flex justify-between items-center mt-[1vw] max-md:border-[1px] max-md:py-[0.5rem] ">
-          <h4 class="text-[1.25vw] max-md:text-h6">Question text goes here?</h4>
+          <h4 class="text-[1.25vw] max-md:text-h6">Can I still play if I’m an individual?</h4>
           <h4 onclick="showAnswer4()" class="text-[3vw] max-md:text-[5vw] cursor-pointer">&plus;</h4>
         </div>
         <div class="answer-4 text-color2 hidden">
           <div class="max-md:border-[1px] max-md:border-t-0 border-l-2 border-b-2 border-r-2 border-black p-10 max-md:p-2">
-            <p class="text-[1.25vw] max-md:text-h6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta eum suscipit quia quam impedit ullam, libero sapiente illo, et quo facere fugiat quae debitis labore facilis placeat eligendi, ut iure obcaecati. Officia aliquam necessitatibus nobis explicabo ullam recusandae tempore pariatur iusto, mollitia, expedita exercitationem earum minima voluptates ab aut sit.</p>
+            <p class="text-[1.25vw] max-md:text-h6">Absolutely! Get into contact with our team using any of the socials below and we will happily find you a team! </p>
           </div>
         </div>
         <div class="question-1  border-2 border-black w-full px-[2.5vw] py-[0.5vw] flex justify-between items-center mt-[1vw] max-md:border-[1px] max-md:py-[0.5rem] ">
-          <h4 class="text-[1.25vw] max-md:text-h6">Question text goes here?</h4>
+          <h4 class="text-[1.25vw] max-md:text-h6">Where do I find my match stats? </h4>
           <h4 onclick="showAnswer5()" class="text-[3vw] max-md:text-[5vw] cursor-pointer">&plus;</h4>
         </div>
         <div class="answer-5 text-color2 hidden">
           <div class="max-md:border-[1px] max-md:border-t-0 border-l-2 border-b-2 border-r-2 border-black p-10 max-md:p-2">
-            <p class="text-[1.25vw] max-md:text-h6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta eum suscipit quia quam impedit ullam, libero sapiente illo, et quo facere fugiat quae debitis labore facilis placeat eligendi, ut iure obcaecati. Officia aliquam necessitatibus nobis explicabo ullam recusandae tempore pariatur iusto, mollitia, expedita exercitationem earum minima voluptates ab aut sit.</p>
+            <p class="text-[1.25vw] max-md:text-h6">All stats will be updated on Cricheroes for Juniors, and PlayHQ for Seniors.</p>
           </div>
         </div>
         
@@ -576,7 +505,7 @@
     <footer class="bg-white my-8 max-md:my-0 mx-[15vw] max-md:hidden">
       <div class="container mx-auto flex flex-col items-center md:flex-row md:justify-between">
         <div class="mb-4 md:mb-0">
-          <img class="w-[64px] max-md:w-[16px]" src="imgs/logo-dark.png" alt="">
+          <img class="w-[5vw] max-md:w-[16px]" src="imgs/logo-dark.png" alt="">
         </div>
         <div class="flex space-x-8 mb-4 md:mb-0">
           <a href="tel:+61 410 943 582" class="text-[1vw]">Rules</a>

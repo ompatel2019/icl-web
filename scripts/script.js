@@ -61,30 +61,29 @@ function showAnswer() {
 
 countdownTimer();
 
-
-
 function toggleJuniors() {
-    // Hide the seniors section and show the juniors section
-    document.getElementById('senior').classList.add('hidden');
-    document.getElementById('junior').classList.remove('hidden');
-    
-    // Update button styles
-    document.getElementById('JuniorBtn').classList.add('bg-black', 'text-white');
-    document.getElementById('JuniorBtn').classList.remove('bg-white', 'text-black');
-    document.getElementById('SeniorBtn').classList.add('bg-white', 'text-black');
-    document.getElementById('SeniorBtn').classList.remove('bg-black', 'text-white');
-  }
-    
-  function toggleSeniors() {
-    // Hide the juniors section and show the seniors section
-    document.getElementById('junior').classList.add('hidden');
-    document.getElementById('senior').classList.remove('hidden');
-    
-    // Update button styles
-    document.getElementById('SeniorBtn').classList.add('bg-black', 'text-white');
-    document.getElementById('SeniorBtn').classList.remove('bg-white', 'text-black');
-    document.getElementById('JuniorBtn').classList.add('bg-white', 'text-black');
-    document.getElementById('JuniorBtn').classList.remove('bg-black', 'text-white');
-  }
+  // Hide both seniors sections and show both juniors sections
+  document.getElementById('senior1').classList.add('hidden');
+  document.getElementById('senior2').classList.add('hidden');
+  document.getElementById('junior1').classList.remove('hidden');
+  document.getElementById('junior2').classList.remove('hidden');
+
+  document.getElementById('JuniorBtn').classList.add('bg-black', 'text-white');
+  document.getElementById('JuniorBtn').classList.remove('bg-white', 'text-black');
+  document.getElementById('SeniorBtn').classList.add('bg-white', 'text-black');
+  document.getElementById('SeniorBtn').classList.remove('bg-black', 'text-white');
+}
+
+function toggleSeniors() {
+  // Hide both juniors sections and show both seniors sections
+  document.getElementById('junior1').classList.add('hidden');
+  document.getElementById('junior2').classList.add('hidden');
+  document.getElementById('senior1').classList.remove('hidden');
+  document.getElementById('senior2').classList.remove('hidden');
   
-  
+  document.getElementById('SeniorBtn').classList.add('bg-black', 'text-white');
+  document.getElementById('SeniorBtn').classList.remove('bg-white', 'text-black');
+  document.getElementById('JuniorBtn').classList.add('bg-white', 'text-black');
+  document.getElementById('JuniorBtn').classList.remove('bg-black', 'text-white');
+}
+
