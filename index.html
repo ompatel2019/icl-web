@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet" />
+    <title>PlayPoint ICL</title>
+    <link rel="stylesheet" href="src/output.css" />
+</head>
+<body class="m-0 p-0 overflow-x-hidden font-manrope">
+    <section class="nav-hero-cta relative flex flex-col items-center bg-color4-gradient">
+
+        <nav class="relative w-full flex justify-around items-center p-8 text-h6 max-sm:p-2">
+            <div class="flex items-center">
+                <a href="https://playpoint.com.au/"><img class="w-[7.5vw] max-sm:w-[5rem]" src="imgs/logo.png" alt="Logo" class="h-12"></a>
+            </div>
+            <ul class="flex text-white font-manrope gap-8 text-small max-md:hidden">
+              <li>
+                  <a href="#experience" class="hover:text-gray-300">The ICL Experience</a>
+              </li>
+                <li>
+                    <a href="#pricing" class="hover:text-gray-300">Pricing</a>
+                </li>
+                <li>
+                    <a href="#faq" class="hover:text-gray-300">FAQ</a>
+                </li>
+            </ul>
+            <button class="max-md:hidden button font-manrope px-[2.5vw] py-[1.3vw] max-md:py-[0.25rem] max-md:px-[1.5rem] text-small max-md:text-h6">
+                <a href="https://forms.fillout.com/t/oRaCkhtpMNus?fbclid=IwZXh0bgNhZW0CMTEAAR0jP5PLht0p6f92nZ_QUUxb_1GNA5NS7NKY5eOA5a37URUfMcFvsTb66Fc_aem_f6tDqQEXUufVDaMVoUFn7w"><span class="button-content">Register</span></a>
+              </button>
+
+             <button class="md:hidden max-md:py-[0.35rem] max-md:px-[1.5rem] border rounded-xl text-white hover:bg-purple-400 hover:text-white transition-all">
+              <a href="https://forms.fillout.com/t/oRaCkhtpMNus?fbclid=IwZXh0bgNhZW0CMTEAAR0jP5PLht0p6f92nZ_QUUxb_1GNA5NS7NKY5eOA5a37URUfMcFvsTb66Fc_aem_f6tDqQEXUufVDaMVoUFn7w">Register</a>
+             </button> 
+        </nav>
+
+        <div class="relative z-1 p-5 gap-4 text-white text-center font-manrope flex flex-col justify-center">
+          <div class="flex justify-center items-center gap-2">
+            <div class="bg-green-500 rounded-full w-[2vw] h-[1rem] glow live-dot text-small max-md:w-[12px] max-md:h-[12px]"></div>
+            <div class="countdown">
+              <p class="text-p max-md:text-[10px]">Season Live in </p> 
+              <div class="text-p max-md:text-[10px]"><span id="days">0</span> days</div>
+                  <div class="text-p max-md:text-[10px]"><span id="hours">0</span> hours</div>
+                  <div class="text-p max-md:text-[10px]"><span id="minutes">0</span> minutes</div>
+                  <div class="text-p max-md:text-[10px]">and</div>
+                  <div class="text-p max-md:text-[10px]"><span id="seconds">0</span> seconds</div>
+              </div>
+          </div>
+          <div>
+            <h1 class="text-h3 max-md:text-h3 font-bold">PlayPoint Indoor Cricket League</h1>
+            <p class="text-p max-md:text-h5">Enter the arena. Feel the adrenaline. Experience intense, high-speed cricket action.</p>
+          </div>
+      </div>
+        
+      <video class="my-[2vw] mb-[2vw] max-md:mb-[5rem] relative z-1 object-cover max-md:object-contain w-[50%] max-md:w-[65%] rounded-lg" src="imgs/S3 Highlights (1) (1).mp4" autoplay controls loop muted playsinline></video>
+
+      <div class="max-md:mb-[2.5rem]"></div>
+
+        <div class="max-md:hidden relative z-1 flex flex-col gap-4 items-center justify-center my-[3vw]">
+            <img class="max-md:w-[12px]" src="imgs/scroll.svg" alt="">
+            <p class="text-white">Scroll Down</p>
+            <img class="h-[32px] downArrow" src="imgs/Arrow 5 1.svg" alt="">
+        </div>
+
+
+    </section>
+
+
+    <section class="cta flex my-[5vw] max-md:mb-[5rem] max-md:my-[3rem] font-manrope">
+
+        <div class="flex flex-col items-start gap-[2vw] w-[55vw] p-[5vw]">
+            <h2 class="text-h4 leading-[5vw] font-semibold font-manrope text-left">Make your way to the crease, limited spots left!</h2>
+
+            <a href="">
+              <div class="md:hidden rounded-full border border-black p-2 text-[8px] px-6 hover:bg-purple-400 hover:text-white transition-all">
+                Pad Up >
+              </div>
+            </a>
+            
+            <div class="btn-conteiner flex justify-start items-start max-md:hidden">
+                <a class="btn-content" href="#">
+                  <span class="btn-title font-manrope text-p">Pad Up</span>
+                  <span class="icon-arrow">
+                    <svg width="48px" height="48px" viewBox="0 0 66 43" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                      <g id="arrow" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                        <path id="arrow-icon-one" d="M40.1543933,3.89485454 L43.9763149,0.139296592 C44.1708311,-0.0518420739 44.4826329,-0.0518571125 44.6771675,0.139262789 L65.6916134,20.7848311 C66.0855801,21.1718824 66.0911863,21.8050225 65.704135,22.1989893 C65.7000188,22.2031791 65.6958657,22.2073326 65.6916762,22.2114492 L44.677098,42.8607841 C44.4825957,43.0519059 44.1708242,43.0519358 43.9762853,42.8608513 L40.1545186,39.1069479 C39.9575152,38.9134427 39.9546793,38.5968729 40.1481845,38.3998695 C40.1502893,38.3977268 40.1524132,38.395603 40.1545562,38.3934985 L56.9937789,21.8567812 C57.1908028,21.6632968 57.193672,21.3467273 57.0001876,21.1497035 C56.9980647,21.1475418 56.9959223,21.1453995 56.9937605,21.1432767 L40.1545208,4.60825197 C39.9574869,4.41477773 39.9546013,4.09820839 40.1480756,3.90117456 C40.1501626,3.89904911 40.1522686,3.89694235 40.1543933,3.89485454 Z" fill="#FFFFFF"></path>
+                        <path id="arrow-icon-two" d="M20.1543933,3.89485454 L23.9763149,0.139296592 C24.1708311,-0.0518420739 24.4826329,-0.0518571125 24.6771675,0.139262789 L45.6916134,20.7848311 C46.0855801,21.1718824 46.0911863,21.8050225 45.704135,22.1989893 C45.7000188,22.2031791 45.6958657,22.2073326 45.6916762,22.2114492 L24.677098,42.8607841 C24.4825957,43.0519059 24.1708242,43.0519358 23.9762853,42.8608513 L20.1545186,39.1069479 C19.9575152,38.9134427 19.9546793,38.5968729 20.1481845,38.3998695 C20.1502893,38.3977268 20.1524132,38.395603 20.1545562,38.3934985 L36.9937789,21.8567812 C37.1908028,21.6632968 37.193672,21.3467273 37.0001876,21.1497035 C36.9980647,21.1475418 36.9959223,21.1453995 36.9937605,21.1432767 L20.1545208,4.60825197 C19.9574869,4.41477773 19.9546013,4.09820839 20.1480756,3.90117456 C20.1501626,3.89904911 20.1522686,3.89694235 20.1543933,3.89485454 Z" fill="#FFFFFF"></path>
+                        <path id="arrow-icon-three" d="M0.154393339,3.89485454 L3.97631488,0.139296592 C4.17083111,-0.0518420739 4.48263286,-0.0518571125 4.67716753,0.139262789 L25.6916134,20.7848311 C26.0855801,21.1718824 26.0911863,21.8050225 25.704135,22.1989893 C25.7000188,22.2031791 25.6958657,22.2073326 25.6916762,22.2114492 L4.67709797,42.8607841 C4.48259567,43.0519059 4.17082418,43.0519358 3.97628526,42.8608513 L0.154518591,39.1069479 C-0.0424848215,38.9134427 -0.0453206733,38.5968729 0.148184538,38.3998695 C0.150289256,38.3977268 0.152413239,38.395603 0.154556228,38.3934985 L16.9937789,21.8567812 C17.1908028,21.6632968 17.193672,21.3467273 17.0001876,21.1497035 C16.9980647,21.1475418 16.9959223,21.1453995 16.9937605,21.1432767 L0.15452076,4.60825197 C-0.0425130651,4.41477773 -0.0453986756,4.09820839 0.148075568,3.90117456 C0.150162624,3.89904911 0.152268631,3.89694235 0.154393339,3.89485454 Z" fill="#FFFFFF"></path>
+                      </g>
+                    </svg>
+                  </span>
+                </a>
+            </div>
+        </div>
+
+        <div class=""><img class="absolute right-0 w-[35vw] max-md:w-[50vw]" src="imgs/ctaimg.png" alt=""></div>
+
+        <div class="my-[17.5vw]"></div>
+        
+    </section>
+
+
+    <section id="experience" class="gallery my-[5vw]">
+
+        <h2 class="text-center font-semibold text-h4 max-md:text-h1">The ICL Experience</h2>
+        <p class="text-center text-p max-md:text-h5">Cricket, Mates, Laughter and Banter.</p>
+
+        <section class="px-[5%]">
+            <div class="container">
+                <div class="mb-12 text-center md:mb-18 lg:mb-20">
+                </div>
+                <div class="gap-x-8 md:columns-2">
+                    <div class="mb-8 inline-block w-full ring-offset-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-border-primary focus-visible:ring-offset-2">
+                        <div class="relative inline-block w-full pt-[100%]">
+                            <img
+                                src="imgs/img2.JPG"
+                                alt="Placeholder image 1"
+                                class="absolute inset-0 size-full object-cover rounded-lg"
+                            />
+                        </div>
+                    </div>
+                    <div class="mb-8 inline-block w-full ring-offset-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-border-primary focus-visible:ring-offset-2">
+                        <div class="relative inline-block w-full pt-[66.66%]">
+                            <img
+                                src="imgs/img1.JPG"
+                                alt="Placeholder image 2"
+                                class="absolute inset-0 size-full object-cover rounded-lg"
+                            />
+                        </div>
+                    </div>
+                    <div class="mb-8 inline-block w-full ring-offset-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-border-primary focus-visible:ring-offset-2">
+                        <div class="relative inline-block w-full pt-[66.66%]">
+                            <img
+                                src="imgs/img5.JPG"
+                                alt="Placeholder image 3"
+                                class="absolute inset-0 size-full object-cover rounded-lg"
+                            />
+                        </div>
+                    </div>
+                    <div class="mb-8 inline-block w-full ring-offset-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-border-primary focus-visible:ring-offset-2">
+                        <div class="relative inline-block w-full pt-[100%]">
+                            <img
+                                src="imgs/img3.JPG"
+                                alt="Placeholder image 4"
+                                class="absolute inset-0 size-full object-cover rounded-lg"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <section class="bg-color4-gradient">
+
+      <div id="pricing" class="p-[7.5vw] max-md:px-[4vw]">
+        <h2 class="text-white text-center text-h4 font-semibold max-md:text-h1">
+          Howzat for a plan?
+        </h2>
+        <p class="text-white text-center text-p max-md:text-h4">
+          <span class="">Versatility is key, our plans allow everyone to participate. </span>
+        </p>
+
+        <section class="px-[5%] max-md:px-0 pb-16 md:pb-24 lg:pb-28 max-md:pb-12 py-6">
+          <div class="container">
+            <div dir="ltr" data-orientation="horizontal" class="">
+              <div role="tablist" aria-orientation="horizontal" class="flex mx-auto mb-12 w-fit flex-col md:flex-row" tabindex="-1" data-orientation="horizontal" style="outline: none">
+                <button id="JuniorBtn" onclick="toggleJuniors()" class="bg-black text-white px-8 py-4 max-md:py-2 max-md:text-h4">
+                  Juniors
+                </button>
+                <button id="SeniorBtn" onclick="toggleSeniors()" class="bg-white text-black px-8 py-4 max-md:py-2 max-md:text-h4">
+                  Seniors
+                </button>
+              </div>
+              <div data-state="active" data-orientation="horizontal" role="tabpanel" aria-labelledby="radix-:R2:-trigger-monthly" id="radix-:R2:-content-monthly" tabindex="0" class="focus-visible:outline-none grid grid-cols-1 gap-8 md:grid-cols-2" style="opacity: 1; animation-duration: 0s">
+                <div id="junior" class="flex h-full flex-col justify-between border border-border-primary px-6 py-8 md:p-8 rounded-lg bg-white max-md:">
+                  <div>
+                    <div class="flex items-start justify-between">
+                      <div>
+                        <div class="mb-4 flex flex-col items-start justify-end">
+                        </div>
+                        <h5 class="mb-2 text-xl font-bold md:text-2xl">Basic plan</h5>
+                        <p>Pay Per Session.</p>
+                      </div>
+                      <div class="text-right">
+                        <h1 class="text-6xl font-bold md:text-9xl lg:text-10xl">
+                          $19<span class="text-2xl font-bold md:text-3xl lg:text-4xl"></span>
+                        </h1>
+                      </div>
+                    </div>
+                    <div class="my-8 h-px w-full shrink-0 bg-border"></div>
+                    <p>Includes:</p>
+                    <div class="mb-8 mt-4 grid grid-cols-1 gap-x-6 gap-y-4 py-2 lg:grid-cols-2">
+                      <div class="flex self-start max-md:hidden">
+                        <div class="mr-4 flex-none self-start">
+                          <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="size-6" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                            <path d="m10 15.586-3.293-3.293-1.414 1.414L10 18.414l9.707-9.707-1.414-1.414z"></path>
+                          </svg>
+                        </div>
+                        <p>Feature text goes here</p>
+                      </div>
+                      <div class="flex self-start max-md:hidden">
+                        <div class="mr-4 flex-none self-start">
+                          <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="size-6" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                            <path d="m10 15.586-3.293-3.293-1.414 1.414L10 18.414l9.707-9.707-1.414-1.414z"></path>
+                          </svg>
+                        </div>
+                        <p>Feature text goes here</p>
+                      </div>
+                      <div class="flex self-start max-md:hidden">
+                        <div class="mr-4 flex-none self-start">
+                          <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="size-6" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                            <path d="m10 15.586-3.293-3.293-1.414 1.414L10 18.414l9.707-9.707-1.414-1.414z"></path>
+                          </svg>
+                        </div>
+                        <p>Feature text goes here</p>
+                      </div>
+                      <div class="flex self-start">
+                        <div class="mr-4 flex-none self-start">
+                          <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="size-6" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                            <path d="m10 15.586-3.293-3.293-1.414 1.414L10 18.414l9.707-9.707-1.414-1.414z"></path>
+                          </svg>
+                        </div>
+                        <p>Feature text goes here</p>
+                      </div>
+                      <div class="flex self-start">
+                        <div class="mr-4 flex-none self-start">
+                          <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="size-6" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                            <path d="m10 15.586-3.293-3.293-1.414 1.414L10 18.414l9.707-9.707-1.414-1.414z"></path>
+                          </svg>
+                        </div>
+                        <p>Feature text goes here</p>
+                      </div>
+                      <div class="flex self-start">
+                        <div class="mr-4 flex-none self-start">
+                          <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="size-6" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                            <path d="m10 15.586-3.293-3.293-1.414 1.414L10 18.414l9.707-9.707-1.414-1.414z"></path>
+                          </svg>
+                        </div>
+                        <p>Feature text goes here</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flex justify-center">
+                    <a style="--clr: #00A3E0" class="btn flex justify-center" href="#">
+                      <span class="btn__icon-wrapper">
+                        <svg width="10" class="btn__icon-svg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 15">
+                          <path fill="currentColor" d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"></path>
+                        </svg>
+                        <svg class="btn__icon-svg btn__icon-svg--copy" xmlns="http://www.w3.org/2000/svg" width="10" fill="none" viewBox="0 0 14 15">
+                          <path fill="currentColor" d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"></path>
+                        </svg>
+                      </span>
+                      Select Plan
+                    </a>
+                  </div>
+                </div>
+
+                <div id="junior" class="flex h-full flex-col justify-between border border-border-primary px-6 py-8 md:p-8 rounded-lg bg-white">
+                  <div>
+                    <div class="flex items-start justify-between">
+                      <div>
+                        <div class="mb-4 flex flex-col items-start justify-end">
+                        </div>
+                        <h5 class="mb-2 text-xl font-bold md:text-2xl">Season plan</h5>
+                        <p>Pay Per Season.</p>
+                      </div>
+                      <div class="text-right">
+                        <h1 class="text-6xl font-bold md:text-9xl lg:text-10xl">
+                          $69<span class="text-2xl font-bold md:text-3xl lg:text-4xl"></span>
+                        </h1>
+                      </div>
+                    </div>
+                    <div class="my-8 h-px w-full shrink-0 bg-border"></div>
+                    <p>Includes:</p>
+                    <div class="mb-8 mt-4 grid grid-cols-1 gap-x-6 gap-y-4 py-2 lg:grid-cols-2">
+                      <div class="flex self-start max-md:hidden">
+                        <div class="mr-4 flex-none self-start">
+                          <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="size-6" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                            <path d="m10 15.586-3.293-3.293-1.414 1.414L10 18.414l9.707-9.707-1.414-1.414z"></path>
+                          </svg>
+                        </div>
+                        <p>Feature text goes here</p>
+                      </div>
+                      <div class="flex self-start max-md:hidden">
+                        <div class="mr-4 flex-none self-start">
+                          <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="size-6" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                            <path d="m10 15.586-3.293-3.293-1.414 1.414L10 18.414l9.707-9.707-1.414-1.414z"></path>
+                          </svg>
+                        </div>
+                        <p>Feature text goes here</p>
+                      </div>
+                      <div class="flex self-start max-md:hidden">
+                        <div class="mr-4 flex-none self-start">
+                          <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="size-6" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                            <path d="m10 15.586-3.293-3.293-1.414 1.414L10 18.414l9.707-9.707-1.414-1.414z"></path>
+                          </svg>
+                        </div>
+                        <p>Feature text goes here</p>
+                      </div>
+                      <div class="flex self-start">
+                        <div class="mr-4 flex-none self-start">
+                          <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="size-6" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                            <path d="m10 15.586-3.293-3.293-1.414 1.414L10 18.414l9.707-9.707-1.414-1.414z"></path>
+                          </svg>
+                        </div>
+                        <p>Feature text goes here</p>
+                      </div>
+                      <div class="flex self-start">
+                        <div class="mr-4 flex-none self-start">
+                          <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="size-6" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                            <path d="m10 15.586-3.293-3.293-1.414 1.414L10 18.414l9.707-9.707-1.414-1.414z"></path>
+                          </svg>
+                        </div>
+                        <p>Feature text goes here</p>
+                      </div>
+                      <div class="flex self-start">
+                        <div class="mr-4 flex-none self-start">
+                          <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="size-6" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                            <path d="m10 15.586-3.293-3.293-1.414 1.414L10 18.414l9.707-9.707-1.414-1.414z"></path>
+                          </svg>
+                        </div>
+                        <p>Feature text goes here</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flex justify-center">
+                    <a style="--clr: #00A3E0" class="btn flex justify-center" href="#">
+                      <span class="btn__icon-wrapper">
+                        <svg width="10" class="btn__icon-svg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 15">
+                          <path fill="currentColor" d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"></path>
+                        </svg>
+                        <svg class="btn__icon-svg btn__icon-svg--copy" xmlns="http://www.w3.org/2000/svg" width="10" fill="none" viewBox="0 0 14 15">
+                          <path fill="currentColor" d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"></path>
+                        </svg>
+                      </span>
+                      Select Plan
+                    </a>
+                  </div>
+                </div>
+
+
+                <div id="senior" class="flex h-full flex-col justify-between border border-border-primary px-6 py-8 md:p-8 rounded-lg bg-white hidden">
+                  <div>
+                    <div class="flex items-start justify-between">
+                      <div>
+                        <div class="mb-4 flex flex-col items-start justify-end">
+                        </div>
+                        <h5 class="mb-2 text-xl font-bold md:text-2xl">Basic plan</h5>
+                        <p>Pay Per Session.</p>
+                      </div>
+                      <div class="text-right">
+                        <h1 class="text-6xl font-bold md:text-9xl lg:text-10xl">
+                          $21<span class="text-2xl font-bold md:text-3xl lg:text-4xl"></span>
+                        </h1>
+                      </div>
+                    </div>
+                    <div class="my-8 h-px w-full shrink-0 bg-border"></div>
+                    <p>Includes:</p>
+                    <div class="mb-8 mt-4 grid grid-cols-1 gap-x-6 gap-y-4 py-2 lg:grid-cols-2">
+                      <div class="flex self-start max-md:hidden">
+                        <div class="mr-4 flex-none self-start">
+                          <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="size-6" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                            <path d="m10 15.586-3.293-3.293-1.414 1.414L10 18.414l9.707-9.707-1.414-1.414z"></path>
+                          </svg>
+                        </div>
+                        <p>Feature text goes here</p>
+                      </div>
+                      <div class="flex self-start max-md:hidden">
+                        <div class="mr-4 flex-none self-start">
+                          <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="size-6" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                            <path d="m10 15.586-3.293-3.293-1.414 1.414L10 18.414l9.707-9.707-1.414-1.414z"></path>
+                          </svg>
+                        </div>
+                        <p>Feature text goes here</p>
+                      </div>
+                      <div class="flex self-start max-md:hidden">
+                        <div class="mr-4 flex-none self-start">
+                          <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="size-6" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                            <path d="m10 15.586-3.293-3.293-1.414 1.414L10 18.414l9.707-9.707-1.414-1.414z"></path>
+                          </svg>
+                        </div>
+                        <p>Feature text goes here</p>
+                      </div>
+                      <div class="flex self-start">
+                        <div class="mr-4 flex-none self-start">
+                          <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="size-6" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                            <path d="m10 15.586-3.293-3.293-1.414 1.414L10 18.414l9.707-9.707-1.414-1.414z"></path>
+                          </svg>
+                        </div>
+                        <p>Feature text goes here</p>
+                      </div>
+                      <div class="flex self-start">
+                        <div class="mr-4 flex-none self-start">
+                          <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="size-6" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                            <path d="m10 15.586-3.293-3.293-1.414 1.414L10 18.414l9.707-9.707-1.414-1.414z"></path>
+                          </svg>
+                        </div>
+                        <p>Feature text goes here</p>
+                      </div>
+                      <div class="flex self-start">
+                        <div class="mr-4 flex-none self-start">
+                          <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="size-6" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                            <path d="m10 15.586-3.293-3.293-1.414 1.414L10 18.414l9.707-9.707-1.414-1.414z"></path>
+                          </svg>
+                        </div>
+                        <p>Feature text goes here</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flex justify-center">
+                    <a style="--clr: #00A3E0" class="btn flex justify-center" href="#">
+                      <span class="btn__icon-wrapper">
+                        <svg width="10" class="btn__icon-svg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 15">
+                          <path fill="currentColor" d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"></path>
+                        </svg>
+                        <svg class="btn__icon-svg btn__icon-svg--copy" xmlns="http://www.w3.org/2000/svg" width="10" fill="none" viewBox="0 0 14 15">
+                          <path fill="currentColor" d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"></path>
+                        </svg>
+                      </span>
+                      Select Plan
+                    </a>
+                  </div>
+                </div>
+
+                <div id="senior" class="flex h-full flex-col justify-between border border-border-primary px-6 py-8 md:p-8 rounded-lg bg-white hidden">
+                  <div>
+                    <div class="flex items-start justify-between">
+                      <div>
+                        <div class="mb-4 flex flex-col items-start justify-end">
+                        </div>
+                        <h5 class="mb-2 text-xl font-bold md:text-2xl">Season plan</h5>
+                        <p>Pay Per Season.</p>
+                      </div>
+                      <div class="text-right">
+                        <h1 class="text-6xl font-bold md:text-9xl lg:text-10xl">
+                          $71<span class="text-2xl font-bold md:text-3xl lg:text-4xl"></span>
+                        </h1>
+                      </div>
+                    </div>
+                    <div class="my-8 h-px w-full shrink-0 bg-border"></div>
+                    <p>Includes:</p>
+                    <div class="mb-8 mt-4 grid grid-cols-1 gap-x-6 gap-y-4 py-2 lg:grid-cols-2">
+                      <div class="flex self-start max-md:hidden">
+                        <div class="mr-4 flex-none self-start">
+                          <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="size-6" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                            <path d="m10 15.586-3.293-3.293-1.414 1.414L10 18.414l9.707-9.707-1.414-1.414z"></path>
+                          </svg>
+                        </div>
+                        <p>Feature text goes here</p>
+                      </div>
+                      <div class="flex self-start max-md:hidden">
+                        <div class="mr-4 flex-none self-start">
+                          <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="size-6" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                            <path d="m10 15.586-3.293-3.293-1.414 1.414L10 18.414l9.707-9.707-1.414-1.414z"></path>
+                          </svg>
+                        </div>
+                        <p>Feature text goes here</p>
+                      </div>
+                      <div class="flex self-start max-md:hidden">
+                        <div class="mr-4 flex-none self-start">
+                          <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="size-6" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                            <path d="m10 15.586-3.293-3.293-1.414 1.414L10 18.414l9.707-9.707-1.414-1.414z"></path>
+                          </svg>
+                        </div>
+                        <p>Feature text goes here</p>
+                      </div>
+                      <div class="flex self-start">
+                        <div class="mr-4 flex-none self-start">
+                          <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="size-6" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                            <path d="m10 15.586-3.293-3.293-1.414 1.414L10 18.414l9.707-9.707-1.414-1.414z"></path>
+                          </svg>
+                        </div>
+                        <p>Feature text goes here</p>
+                      </div>
+                      <div class="flex self-start">
+                        <div class="mr-4 flex-none self-start">
+                          <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="size-6" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                            <path d="m10 15.586-3.293-3.293-1.414 1.414L10 18.414l9.707-9.707-1.414-1.414z"></path>
+                          </svg>
+                        </div>
+                        <p>Feature text goes here</p>
+                      </div>
+                      <div class="flex self-start">
+                        <div class="mr-4 flex-none self-start">
+                          <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="size-6" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                            <path d="m10 15.586-3.293-3.293-1.414 1.414L10 18.414l9.707-9.707-1.414-1.414z"></path>
+                          </svg>
+                        </div>
+                        <p>Feature text goes here</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flex justify-center">
+                    <a style="--clr: #00A3E0" class="btn flex justify-center" href="#">
+                      <span class="btn__icon-wrapper">
+                        <svg width="10" class="btn__icon-svg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 15">
+                          <path fill="currentColor" d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"></path>
+                        </svg>
+                        <svg class="btn__icon-svg btn__icon-svg--copy" xmlns="http://www.w3.org/2000/svg" width="10" fill="none" viewBox="0 0 14 15">
+                          <path fill="currentColor" d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"></path>
+                        </svg>
+                      </span>
+                      Select Plan
+                    </a>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </section>
+
+
+    <section id="faq" class="faq py-[5vw] mx-[15vw] max-md:mx-[7.5vw] max-md:pt-[3rem] max-md:pb-0">
+
+      <h2 class="text-right text-h4 max-md:text-h1 font-semibold">
+        Still got questions?
+      </h2>
+      <p class="text-right max-md:text-h5 text-p">There may be bad sledges, but no bad questions, hopefully these answer all yours.</p>
+
+      <div class="my-[5vw]">
+        <div class="question-1  border-2 border-black w-full px-[2.5vw] py-[0.5vw] flex justify-between items-center mt-[1vw] max-md:border-[1px] max-md:py-[0.5rem] ">
+          <h4 class="text-[1.25vw] max-md:text-h6">Question text goes here?</h4>
+          <h4 onclick="showAnswer()" class="text-[3vw] max-md:text-[5vw] cursor-pointer">&plus;</h4>
+        </div>
+        <div class="answer-1 text-color2 hidden">
+          <div class="max-md:border-[1px] max-md:border-t-0 border-l-2 border-b-2 border-r-2 border-black p-10 max-md:p-2">
+            <p class="text-[1.25vw] max-md:text-h6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta eum suscipit quia quam impedit ullam, libero sapiente illo, et quo facere fugiat quae debitis labore facilis placeat eligendi, ut iure obcaecati. Officia aliquam necessitatibus nobis explicabo ullam recusandae tempore pariatur iusto, mollitia, expedita exercitationem earum minima voluptates ab aut sit.</p>
+          </div>
+        </div>
+        <div class="question-1  border-2 border-black w-full px-[2.5vw] py-[0.5vw] flex justify-between items-center mt-[1vw] max-md:border-[1px] max-md:py-[0.5rem] ">
+          <h4 class="text-[1.25vw] max-md:text-h6">Question text goes here?</h4>
+          <h4 onclick="showAnswer2()" class="text-[3vw] max-md:text-[5vw] cursor-pointer">&plus;</h4>
+        </div>
+        <div class="answer-2 text-color2 hidden">
+          <div class="max-md:border-[1px] max-md:border-t-0 border-l-2 border-b-2 border-r-2 border-black p-10 max-md:p-2">
+            <p class="text-[1.25vw] max-md:text-h6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta eum suscipit quia quam impedit ullam, libero sapiente illo, et quo facere fugiat quae debitis labore facilis placeat eligendi, ut iure obcaecati. Officia aliquam necessitatibus nobis explicabo ullam recusandae tempore pariatur iusto, mollitia, expedita exercitationem earum minima voluptates ab aut sit.</p>
+          </div>
+        </div>
+        <div class="question-1  border-2 border-black w-full px-[2.5vw] py-[0.5vw] flex justify-between items-center mt-[1vw] max-md:border-[1px] max-md:py-[0.5rem] ">
+          <h4 class="text-[1.25vw] max-md:text-h6">Question text goes here?</h4>
+          <h4 onclick="showAnswer3()" class="text-[3vw] max-md:text-[5vw] cursor-pointer">&plus;</h4>
+        </div>
+        <div class="answer-3 text-color2 hidden">
+          <div class="max-md:border-[1px] max-md:border-t-0 border-l-2 border-b-2 border-r-2 border-black p-10 max-md:p-2">
+            <p class="text-[1.25vw] max-md:text-h6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta eum suscipit quia quam impedit ullam, libero sapiente illo, et quo facere fugiat quae debitis labore facilis placeat eligendi, ut iure obcaecati. Officia aliquam necessitatibus nobis explicabo ullam recusandae tempore pariatur iusto, mollitia, expedita exercitationem earum minima voluptates ab aut sit.</p>
+          </div>
+        </div>
+        <div class="question-1  border-2 border-black w-full px-[2.5vw] py-[0.5vw] flex justify-between items-center mt-[1vw] max-md:border-[1px] max-md:py-[0.5rem] ">
+          <h4 class="text-[1.25vw] max-md:text-h6">Question text goes here?</h4>
+          <h4 onclick="showAnswer4()" class="text-[3vw] max-md:text-[5vw] cursor-pointer">&plus;</h4>
+        </div>
+        <div class="answer-4 text-color2 hidden">
+          <div class="max-md:border-[1px] max-md:border-t-0 border-l-2 border-b-2 border-r-2 border-black p-10 max-md:p-2">
+            <p class="text-[1.25vw] max-md:text-h6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta eum suscipit quia quam impedit ullam, libero sapiente illo, et quo facere fugiat quae debitis labore facilis placeat eligendi, ut iure obcaecati. Officia aliquam necessitatibus nobis explicabo ullam recusandae tempore pariatur iusto, mollitia, expedita exercitationem earum minima voluptates ab aut sit.</p>
+          </div>
+        </div>
+        <div class="question-1  border-2 border-black w-full px-[2.5vw] py-[0.5vw] flex justify-between items-center mt-[1vw] max-md:border-[1px] max-md:py-[0.5rem] ">
+          <h4 class="text-[1.25vw] max-md:text-h6">Question text goes here?</h4>
+          <h4 onclick="showAnswer5()" class="text-[3vw] max-md:text-[5vw] cursor-pointer">&plus;</h4>
+        </div>
+        <div class="answer-5 text-color2 hidden">
+          <div class="max-md:border-[1px] max-md:border-t-0 border-l-2 border-b-2 border-r-2 border-black p-10 max-md:p-2">
+            <p class="text-[1.25vw] max-md:text-h6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta eum suscipit quia quam impedit ullam, libero sapiente illo, et quo facere fugiat quae debitis labore facilis placeat eligendi, ut iure obcaecati. Officia aliquam necessitatibus nobis explicabo ullam recusandae tempore pariatur iusto, mollitia, expedita exercitationem earum minima voluptates ab aut sit.</p>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+
+
+
+    <footer class="bg-white my-8 max-md:my-0 mx-[15vw] max-md:hidden">
+      <div class="container mx-auto flex flex-col items-center md:flex-row md:justify-between">
+        <div class="mb-4 md:mb-0">
+          <img class="w-[64px] max-md:w-[16px]" src="imgs/logo-dark.png" alt="">
+        </div>
+        <div class="flex space-x-8 mb-4 md:mb-0">
+          <a href="tel:+61 410 943 582" class="text-[1vw]">Rules</a>
+          <a href="https://maps.app.goo.gl/PNSqv1Srv3D2Ntvv6" class="text-[1vw]">Location</a>
+        </div>
+        <div class="flex space-x-4">
+          <ul class="example-2">
+            <li class="icon-content">
+                <a href="https://www.instagram.com/playpoint.icl/" aria-label="Instagram" data-social="instagram">
+                    <div class="filled"></div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16" xml:space="preserve">
+                        <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" fill="currentColor"></path>
+                    </svg>
+                </a>
+                <div class="tooltip">Instagram</div>
+            </li>
+        </ul>
+        </div>
+      </div>
+      <div class="border-t border-black mt-4 pt-4">
+        <div class="container mx-auto justify-center flex flex-col items-center md:flex-row md:justify-center text-center text-gray-600 text-2vw">
+          <p class="text-[1vw] text-center">© 2024 Playpoint ICL. All rights reserved.</p>
+          <div class="flex space-x-4">
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+    <footer class="bg-white my-8 mx-[2.5vw] md:hidden">
+      <div class="container flex flex-row gap-6 justify-between items-center">
+        <div class="">
+          <img class="w-[48px]" src="imgs/logo-dark.png" alt="">
+        </div>
+        <div class="flex space-x-8 md:mb-0">
+          <a href="https://maps.app.goo.gl/PNSqv1Srv3D2Ntvv6" class="text-[10px]">Location</a>
+          <a href="mailto:rhys.1997@hotmail.com" class="text-[10px]">Rules</a>
+        </div>
+        <div class="flex ">
+          <a href="https://www.instagram.com/playpoint.icl/" target="_blank">
+            <img src="imgs/igram.svg" alt="Instagram" class="w-[4vw] h-[4vw]">
+          </a>
+        </div>
+      </div>
+      <div class="border-t border-black mx-[7.5vw] mt-4 pt-4">
+        <div class="container mx-auto flex flex-col items-center md:flex-row md:justify-between text-center text-gray-600 text-2vw">
+          <p class="text-[12px]">© 2024 PlayPoint ICL. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+  
+
+
+
+
+
+
+
+</body>
+<script src="scripts/script.js"></script>
+</html>
