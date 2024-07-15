@@ -36,7 +36,7 @@ function showAnswer() {
 
 
   function countdownTimer() {
-    const countdownDate = new Date("July 15, 2024 18:00:00").getTime();
+    const countdownDate = new Date("July 24, 2024 18:00:00").getTime();
 
     const x = setInterval(function() {
         const now = new Date().getTime();
