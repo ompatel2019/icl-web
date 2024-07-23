@@ -36,7 +36,7 @@ function showAnswer() {
 
 
   function countdownTimer() {
-    const countdownDate = new Date("July 24, 2024 18:00:00").getTime();
+    const countdownDate = new Date("July 24, 2024 20:00:00").getTime();
 
     const x = setInterval(function() {
         const now = new Date().getTime();
@@ -54,7 +54,7 @@ function showAnswer() {
 
         if (distance < 0) {
             clearInterval(x);
-            document.querySelector(".countdown").innerHTML = "LIVE NOW";
+            document.querySelector(".countdown").innerHTML = "WE'RE LIVE NOW!!";
         }
     }, 1000);
 }
