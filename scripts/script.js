@@ -54,7 +54,7 @@ function showAnswer() {
 
         if (distance < 0) {
             clearInterval(x);
-            document.querySelector(".countdown").innerHTML = "WE'RE LIVE NOW!!";
+            document.querySelector(".countdown").innerHTML = "";
         }
     }, 1000);
 }
